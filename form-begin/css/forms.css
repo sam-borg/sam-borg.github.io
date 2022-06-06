@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #2A8C82;
+}
+
+section {
+	color: #260101;
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+p, [for="abtype"] {
+	margin-bottom: 0;
+	margin-top: 2rem;
+	/*magin: 2rem 0 0 0; */
+}
+
+fieldset {
+	border: 3px solid #9BF2EA;
+	border-radius: 10px;	
+	margin-bottom: 2rem;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+}
+label {
+	display: block;
+	padding: 0.3rem;
+
+}
+
+textarea {
+	height: 10rem;
+	padding: 1rem;
+
+}
+select{
+	font-size: 1rem;;
+}
+
+button {
+	font-size: 1rem;
+	margin: 2rem 0;
+	background-color: #9BF2EA;
+	color: #275950;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+
+
+}
+button:hover {
+	background-color: #275950;
+	color: #9BF2EA;
+}
+
+input:not([type="radio"]):not([type="checkbox"])
+, textarea, select {
+	display: block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem;
+	border-radius: 10px;
+	border: none;
+}
+h1, h3, legend{
+	font-family: 'Titillium Web', sans-serif;
+}

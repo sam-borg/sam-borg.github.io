@@ -1,0 +1,47 @@
+/*This is a style sheet for my first website*/
+
+body{
+    background-color: #2A8C82; 
+}
+h1 {border:5px groove #F2EBEE;
+    text-align: center;
+    color: #F2EBEE;
+}
+nav {
+    border: 0px solid #41BFB3;
+  }
+  nav ul {
+    list-style-type: none;
+    border: 0px dotted blue;
+    padding: 0;
+    margin: 0;
+  }
+  nav li {
+    border: 0px solid yellow;
+    width: 10rem;
+    background-color: #41BFB3;
+    text-align: center;
+    margin-bottom: 0.7rem;
+    display: inline-block;
+  }
+  nav a {
+    border: 0px dotted white;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+  }
+  nav a:hover {
+    background-color: white;
+    color: #260101;
+  }
+
+  /* Color Theme Swatches in Hex */
+.The-Black-and-Red-1-hex { color: #2A8C82; }
+.The-Black-and-Red-2-hex { color: #41BFB3; }
+.The-Black-and-Red-3-hex { color: #9BF2EA; }
+.The-Black-and-Red-4-hex { color: #275950; }
+.The-Black-and-Red-5-hex { color: #260101; }
+
