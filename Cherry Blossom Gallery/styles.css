@@ -1,0 +1,99 @@
+* {
+    box-sizing:border-box;
+}
+
+.gallery-img {
+display: none;
+max-height: 600px;
+}
+
+.active {
+    display: block;
+}
+
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: black;
+    
+    color: #E2D0D0;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev {
+    margin-right: 15px;
+}
+
+.btn:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+img{
+    height: 600px;
+    box-shadow:0 3px 10px rgb(0 0 0 / 20%);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+0,e2d0d0+100 */
+background: rgb(240,249,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(240,249,255,1) 0%, rgba(226,208,208,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(226,208,208,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(240,249,255,1) 0%,rgba(226,208,208,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#e2d0d0',GradientType=0 ); /* IE6-9 */
+
+
+    
+}
+
+.main-nav {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    position: relative;
+    z-index: 5;
+}
+
+.brand{
+    margin: 0;
+    font-size: 50px;
+    cursor: grab;
+    cursor: -webkit-grab;
+    z-index: 50;
+  border-radius: 50%;
+  height: 75px;
+  font-family: 'Oooh Baby', cursive;
+  color: #E2D0D0;
+
+}
+
+footer {
+    text-align: right;
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding-right: 1rem;
+}
