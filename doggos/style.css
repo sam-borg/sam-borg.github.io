@@ -1,0 +1,43 @@
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+.spinner {
+    font-size: 80px;
+    text-align: center;
+    animation: 2s spin linear;
+    display: none;
+}
+
+.dog-img {
+    display: none;
+    border-radius: 5px;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+.show {
+    display: block
+}
+
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breeds {
+     font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+  font-size: 15px;
+  color: #60666d;
+  }
+
+  h1{
+    font-family: 'Fascinate', cursive;
+    font-size: 30x;
+}
