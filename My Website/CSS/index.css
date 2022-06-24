@@ -1,0 +1,149 @@
+/*This is a style sheet for my first website*/
+
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#275950+0,9bf2ea+50,275950+100 */
+background: rgb(39,89,80); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(39,89,80,1) 0%, rgba(155,242,234,1) 50%, rgba(39,89,80,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(39,89,80,1) 0%,rgba(155,242,234,1) 50%,rgba(39,89,80,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(39,89,80,1) 0%,rgba(155,242,234,1) 50%,rgba(39,89,80,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#275950', endColorstr='#275950',GradientType=0 ); /* IE6-9 */
+
+}
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 60px;
+  border:0px groove #F2EBEE;
+  border-radius: 10px;
+    text-align: center;
+    color: #F2EBEE;
+
+;
+}
+.container{
+  position: center;
+  align-items: stretch;
+  margin: auto;
+  text-align: center;
+}
+
+
+.leftcontainer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  border:5px solid red
+
+}
+.rightcontainer {
+  
+  margin: 3rem 0rem 6rem 0rem;
+
+}
+
+.itemtop {
+  color: #F2EBEE;
+  border-radius: 5px;
+  font-family: 'Fraunces', serif;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin: .25rem 1rem 0rem 1rem;
+  background-color: #2A8C82;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+ 
+}
+
+
+
+.itembottom {
+  border: 0px solid orange;
+  border-radius: 5px;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 0rem 0rem 0rem 1rem;
+  margin: 0rem 3rem 1rem 3rem;
+  background-color: #41BFB3;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+nav {
+  border-bottom: 1px solid #9BF2EA;
+  border-top: 1px solid #41BFB3;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 50px 20px;
+  text-align: center;
+  
+
+}
+nav li {
+  display: inline-block;
+  
+}
+nav a {
+  font-family: 'Fraunces', serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: #F2EBEE;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+ 
+
+}
+  nav a:hover {
+   
+    background-image: linear-gradient(#41BFB3, #9BF2EA);
+    border-radius: 30px;
+    color: #260101;
+  }
+  
+  .socialmedia {
+    text-align: center;
+  }
+
+  a:hover {
+    color: black;
+    
+  }
+
+  .homepic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Monofett', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Titillium Web', sans-serif; */
+
+
+
+
+a {
+  font-family: 'Fraunces', serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: #F2EBEE;
+  padding: 1rem 1rem; 
+  border: 0px solid blue;
+
+}
+
+document:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Color Theme Swatches in Hex */
+.The-Black-and-Red-1-hex { color: #2A8C82; }
+.The-Black-and-Red-2-hex { color: #41BFB3; }
+.The-Black-and-Red-3-hex { color: #9BF2EA; }
+.The-Black-and-Red-4-hex { color: #275950; }
+.The-Black-and-Red-5-hex { color: #260101; }
