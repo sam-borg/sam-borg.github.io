@@ -159,7 +159,7 @@ document:after {
 }
 article {
   width: 60rem;
-  border: 3px solid red;
+  border: 0px solid red;
   margin: 0 auto;
 }
 .floatright {
