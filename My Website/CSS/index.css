@@ -147,3 +147,38 @@ document:after {
 .The-Black-and-Red-3-hex { color: #9BF2EA; }
 .The-Black-and-Red-4-hex { color: #275950; }
 .The-Black-and-Red-5-hex { color: #260101; }
+
+.floatleft {
+  float: left;
+  border: 0px solid red;
+  /* TRouBLe */
+  margin: 1rem 1rem 1rem 1rem;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+article {
+  width: 60rem;
+  border: 3px solid red;
+  margin: 0 auto;
+}
+.floatright {
+  float: right;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+
+  /* TRouBLe */
+  margin: 1rem 1rem 1rem 1rem;
+}
+/* If you float make sure you clear*/
+article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.polarbottom {
+  text-align: center;
+  padding: 10px 20px;
+}
