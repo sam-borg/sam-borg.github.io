@@ -16,9 +16,24 @@ h1 {
   border-radius: 10px;
     text-align: center;
     color: #F2EBEE;
+    margin: 40.25px 0 0 0;
 
-;
+
 }
+
+h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+  border:0px groove #F2EBEE;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 0;
+    text-align: center;
+    color: #260101;
+
+
+}
+
 .container{
   position: center;
   align-items: stretch;
@@ -58,6 +73,17 @@ h1 {
   font-family: 'Titillium Web', sans-serif;
   padding: 0rem 0rem 0rem 1rem;
   margin: 0rem 3rem 1rem 3rem;
+  background-color: #41BFB3;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+.contactitembottom{
+ 
+  border-radius: 5px;
+  font-family: 'Titillium Web', sans-serif;
+  width: 60rem;
+  margin: 0 auto;
   background-color: #41BFB3;
   font-size: 18px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
@@ -160,7 +186,7 @@ document:after {
 article {
   width: 60rem;
   border: 0px solid red;
-  margin: 0 auto;
+  
 }
 .floatright {
   float: right;
